@@ -11,6 +11,9 @@ import "./styles/styles.scss";
 
 const store = configureStore();
 
+//checking source-map is still working
+//console.log("testing");
+
 //ReactDOM.render(<AppRouter />, document.getElementById("app"));
 
 const jsx = (
