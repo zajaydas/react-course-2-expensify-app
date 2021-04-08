@@ -8,6 +8,8 @@ import { setTextFilter } from "./actions/filters.js";
 import getVisibleExpenses from "./selectors/expenses.js";
 import "normalize.css/normalize.css";
 import "./styles/styles.scss";
+import "./firebase/firebase.js";
+//import "./playground/promises.js";
 
 const store = configureStore();
 
